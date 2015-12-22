@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.0'
 gem 'rails', '4.1.8'
+gem 'mini_magick'
 gem 'sqlite3', group: :development
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
