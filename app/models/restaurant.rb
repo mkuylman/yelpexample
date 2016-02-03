@@ -2,6 +2,8 @@ class Restaurant < ActiveRecord::Base
   mount_uploader :image, ImageUploader
 
   searchkick
+  include Elasticsearch::Model
+  include Elasticsearch::Model::Callbacks
 
   has_many :reviews
 
