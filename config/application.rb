@@ -8,7 +8,6 @@ Bundler.require(*Rails.groups)
 
 module Yelpdemo
   class Application < Rails::Application
-    Elasticsearch::Model.client = Elasticsearch::Client.new host: ENV['SEARCHBOX_URL']
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
