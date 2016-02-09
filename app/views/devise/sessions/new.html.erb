@@ -1,4 +1,10 @@
-<h2>Sign in</h2>
+<h2>Sign In</h2>
+<br>
+<h4>Sign in as 'test@test.com' to experience full app functionality as an admininstrator, which means you can add new restaurants to Yelp to be reviewed.</h4>
+<p>
+   Email: test@test.com<br>
+   Password: testing123
+</p>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="form-group">
@@ -19,7 +25,7 @@
   <% end -%>
 
   <div class="form-group">
-    <%= f.submit "Sign in", class: "btn btn-primary" %>
+    <%= f.submit "Sign In", class: "btn btn-primary" %>
   </div>
 <% end %>
 
