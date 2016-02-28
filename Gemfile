@@ -23,3 +23,6 @@ gem 'figaro'
 gem 'devise'
 gem 'hirb'
 gem 'searchkick'
+gem 'elasticsearch-model'
+gem 'elasticsearch-rails'
+

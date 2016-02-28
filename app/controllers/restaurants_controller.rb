@@ -10,7 +10,7 @@ class RestaurantsController < ApplicationController
     else
       @restaurants = Restaurant.all
     end
-  end
+  end 
 
   def index
     @restaurants = Restaurant.all

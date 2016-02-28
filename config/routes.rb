@@ -8,6 +8,8 @@ Rails.application.routes.draw do
     resources :reviews, except: [:show, :index]
   end
 
+  get 'restaurants/search' => 'restaurants#search'
+
   get 'pages/about'
 
   get 'pages/contact'
